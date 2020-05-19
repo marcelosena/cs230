@@ -16,6 +16,7 @@ import pickle
 
 from utils.BasicConfig import (IMGWIDTH, IMGHEIGHT, CHARDICT, DICTLENGTH, MAXCHARLENGTH)
 
+path = 'cs230/CS230OCR/'
 
 def loadImgsWithLabels(full=False):
     if full:
